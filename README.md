@@ -6,6 +6,9 @@
 2. Дождитесь запуска teamcity, выполните первоначальную настройку.
 3. Создайте ещё один инстанс (2CPU4RAM) на основе образа `jetbrains/teamcity-agent`. Пропишите к нему переменную окружения `SERVER_URL: "http://<teamcity_url>:8111"`.
 4. Авторизуйте агент.
+
+![image](https://github.com/user-attachments/assets/2b195c39-5dfb-4f1f-aaf5-4b428d1cdc9d)
+
 5. Сделайте fork [репозитория](https://github.com/aragastmatb/example-teamcity).
 6. Создайте VM (2CPU4RAM) и запустите [playbook](./infrastructure).
 
